@@ -28,17 +28,14 @@ Please refer manual about how to make QnA KB using URL.
 
 ## To try this sample
 
-- Clone the repository
+- Clone the repository OR download as zip from dropdown.
 
     ```bash
-    git clone https://github.com/microsoft/botbuilder-samples.git
+    git clone https://github.com/SureshG02/QnAMaker_FAQs.git
     ```
 
-- In a terminal, navigate to `samples/javascript_nodejs/11.qnamaker`
+- In a terminal, navigate to `/QnAMaker_FAQs` folder
 
-    ```bash
-    cd samples/javascript_nodejs/11.qnamaker
-    ```
 
 - Install modules
 
@@ -49,6 +46,7 @@ Please refer manual about how to make QnA KB using URL.
 - Setup QnAMaker
 
     Please refer manual to set up QnA for 112 digia FAQs.
+
 
 - Run the sample
 
@@ -80,7 +78,7 @@ Use below commands to deploy to cloud.
 
 az login
 
-az account set --subscription "<azure-subscription>"
+az account set --subscription "subscription-id"
 
 ## Go to QnAMaker_FAQs directory and run below command
 
