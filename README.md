@@ -50,6 +50,8 @@ Please refer manual about how to make QnA KB using URL.
 
 - Run the sample
 
+	Update MicrosoftAppId, MicrosoftAppPassword, QnAKnowledgebaseId, QnAEndpointKey and QnAEndpointHostName in .env file and run below command.
+	
     ```bash
     npm start
     ```
